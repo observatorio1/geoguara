@@ -200,7 +200,7 @@
                 input.type = 'checkbox';
             }
             input.id = lyrId;
-            input.checked = lyr.get('invisible');
+            input.checked = lyr.get('visible');
             input.onchange = function(e) {
                 this_.setVisible_(lyr, e.target.checked);
             };
