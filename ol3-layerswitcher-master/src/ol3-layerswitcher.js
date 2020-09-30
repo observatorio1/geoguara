@@ -197,12 +197,9 @@
                 input.name = 'base';
             } else {
                 input.type = 'checkbox';
-              $("input:checkbox")     // seleciona todos os checkbox
-                .prop("checked", false) // desmarca todos
-                .val('');               // esvazia o value de todos
             }
             input.id = lyrId;
-            input.checked = lyr.get('visible');
+            input.checked = lyr.get('false');
             input.onchange = function(e) {
                 this_.setVisible_(lyr, e.target.checked);
             };
