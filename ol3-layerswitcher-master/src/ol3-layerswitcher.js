@@ -202,7 +202,7 @@
             input.id = lyrId;
             input.checked = lyr.get('visible');
             input.onchange = function(e) {
-                this_.setVisible_(lyr, e.target.unchecked);
+                this_.setVisible_(lyr, e.target.checked);
             };
             li.appendChild(input);
 
