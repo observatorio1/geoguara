@@ -199,9 +199,9 @@
                 input.type = 'checkbox';
             }
             input.id = lyrId;
-            input.checked = lyr.get('unselected');
+            input.checked = lyr.get('visible');
             input.onchange = function(e) {
-                this_.setVisible_(lyr, e.target.checked);
+                this_.setVisible_(lyr, e.target.unchecked);
             };
             li.appendChild(input);
 
