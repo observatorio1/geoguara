@@ -79,6 +79,7 @@
             this.renderPanel();
         }
     };
+  
 
     /**
      * Hide the layer panel.
