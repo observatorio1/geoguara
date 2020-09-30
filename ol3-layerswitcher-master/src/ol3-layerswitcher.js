@@ -151,8 +151,8 @@
      */
     ol.control.LayerSwitcher.prototype.setVisible_ = function(lyr, visible) {
         var map = this.getMap();
-        lyr.setVisible(invisible);
-        if (invisible && lyr.get('type') === 'base') {
+        lyr.setVisible(visible);
+        if (visible && lyr.get('type') === 'base') {
             // Hide all other base layers regardless of grouping
             ol.control.LayerSwitcher.forEachRecursive(map, function(l, idx, a) {
                 if (l != lyr && l.get('type') === 'base') {
