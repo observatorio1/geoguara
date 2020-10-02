@@ -156,7 +156,7 @@
             // Hide all other base layers regardless of grouping
             ol.control.LayerSwitcher.forEachRecursive(map, function(l, idx, a) {
                 if (l != lyr && l.get('type') === 'base') {
-                    l.setVisible(true);
+                    l.setVisible(false);
                 }
             });
         }
