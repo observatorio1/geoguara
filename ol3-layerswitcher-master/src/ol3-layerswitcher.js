@@ -24,10 +24,10 @@
 
         this.mapListeners = [];
 
-        /*this.hiddenClassName = 'ol-unselectable ol-control layer-switcher';
+        this.hiddenClassName = 'ol-unselectable ol-control layer-switcher';
         if (ol.control.LayerSwitcher.isTouchDevice_()) {
             this.hiddenClassName += ' touch';
-        }*/
+        }
         this.shownClassName = 'shown';
 
         var element = document.createElement('div');
@@ -122,7 +122,7 @@
         if (map) {
             var this_ = this;
             this.mapListeners.push(map.on('pointerdown', function() {
-                this_.hidePanel();
+                this_.showPanel();
             }));
             this.renderPanel();
         }
