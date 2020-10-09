@@ -47,7 +47,7 @@
         button.onmouseover = function(e) {
             this_.showPanel();
         };
-
+/*
         button.onclick = function(e) {
             e = e || window.event;
             this_.showPanel();
@@ -60,7 +60,7 @@
                 this_.hidePanel();
             }
         };
-
+*/
         ol.control.Control.call(this, {
             element: element,
             target: options.target
