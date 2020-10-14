@@ -60,8 +60,6 @@
                 this_.hidePanel();
             }
         };
-
-     
         ol.control.Control.call(this, {
             element: element,
             target: options.target
