@@ -53,7 +53,7 @@
             this_.showPanel();
             e.preventDefault();
         };
-*/
+
         this_.panel.onmouseout = function(e) {
             e = e || window.event;
             if (!this_.panel.contains(e.toElement || e.relatedTarget)) {
@@ -122,7 +122,7 @@
         if (map) {
             var this_ = this;
             this.mapListeners.push(map.on('pointerdown', function() {
-                this_.showPanel();
+                this_.hidePanel();
             }));
             this.renderPanel();
         }
