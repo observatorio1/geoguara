@@ -60,12 +60,12 @@
                 this_.hidePanel();
             }
         };
-*/
+
         ol.control.Control.call(this, {
             element: element,
             target: options.target
         });
-
+*/
     };
 
     ol.inherits(ol.control.LayerSwitcher, ol.control.Control);
