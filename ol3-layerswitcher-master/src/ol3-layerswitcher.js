@@ -43,11 +43,11 @@
         ol.control.LayerSwitcher.enableTouchScroll_(this.panel);
 
         var this_ = this;
-/*
+
         button.onmouseover = function(e) {
             this_.showPanel();
         };
-
+/*
         button.onclick = function(e) {
             e = e || window.event;
             this_.showPanel();
@@ -83,7 +83,7 @@
   
 
     
-      Hide the layer panel.
+      //Hide the layer panel.
      
     ol.control.LayerSwitcher.prototype.showPanel = function() {
         if (this.element.classList.contains(this.shownClassName)) {
