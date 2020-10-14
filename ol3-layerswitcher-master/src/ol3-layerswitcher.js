@@ -43,7 +43,7 @@
         ol.control.LayerSwitcher.enableTouchScroll_(this.panel);
 
         var this_ = this;
-/
+/*
         button.onmouseover = function(e) {
             this_.showPanel();
         };
@@ -60,7 +60,7 @@
                 this_.hidePanel();
             }
         };
-/
+*/
         ol.control.Control.call(this, {
             element: element,
             target: options.target
