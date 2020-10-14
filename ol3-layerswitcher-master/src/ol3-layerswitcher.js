@@ -83,15 +83,14 @@
   
 
     
-      //Hide the layer panel.
-     
+      //Hide the layer panel
     ol.control.LayerSwitcher.prototype.showPanel = function() {
         if (this.element.classList.contains(this.shownClassName)) {
             this.element.classList.remove(this.shownClassName);
         }
     };
 
-    /**
+    /*
      * Re-draw the layer panel to represent the current state of the layers.
      */
     ol.control.LayerSwitcher.prototype.renderPanel = function() {
