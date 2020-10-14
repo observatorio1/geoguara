@@ -83,7 +83,7 @@
 
     
       Hide the layer panel.
-     
+/*     
     ol.control.LayerSwitcher.prototype.showPanel = function() {
         if (this.element.classList.contains(this.shownClassName)) {
             this.element.classList.remove(this.shownClassName);
@@ -122,7 +122,7 @@
         if (map) {
             var this_ = this;
             this.mapListeners.push(map.on('pointerdown', function() {
-                this_.hidePanel();
+                this_.showPanel();
             }));
             this.renderPanel();
         }
