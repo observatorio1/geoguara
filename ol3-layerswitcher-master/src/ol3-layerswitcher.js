@@ -54,10 +54,6 @@
             e.preventDefault();
         };
       
-        this_.onclick = funcion(map){
-        this_.map.hidePanel();
-        };
-      
         this_.panel.onmouseout = function(e) {
             e = e || window.event;
             if (!this_.panel.contains(e.toElement || e.relatedTarget)) {
