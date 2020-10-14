@@ -66,6 +66,7 @@
             target: options.target
         });
 
+
     };
 
     ol.inherits(ol.control.LayerSwitcher, ol.control.Control);
