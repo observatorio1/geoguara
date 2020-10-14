@@ -53,14 +53,15 @@
             this_.showPanel();
             e.preventDefault();
         };
-/*
+
         this_.panel.onmouseout = function(e) {
             e = e || window.event;
             if (!this_.panel.contains(e.toElement || e.relatedTarget)) {
                 this_.hidePanel();
             }
         };
-*/
+
+     
         ol.control.Control.call(this, {
             element: element,
             target: options.target
