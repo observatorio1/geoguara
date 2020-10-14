@@ -53,7 +53,11 @@
             this_.showPanel();
             e.preventDefault();
         };
-
+      
+        this_.map.onclick = funcion(e){
+        this_.showPanel();
+        };
+      
         this_.panel.onmouseout = function(e) {
             e = e || window.event;
             if (!this_.panel.contains(e.toElement || e.relatedTarget)) {
