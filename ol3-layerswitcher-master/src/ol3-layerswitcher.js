@@ -55,7 +55,7 @@
         };
       
         this_.map.onclick = funcion(e){
-        this_.showPanel();
+        this_.hidePanel();
         };
       
         this_.panel.onmouseout = function(e) {
