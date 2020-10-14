@@ -81,7 +81,7 @@
     };
   
 
-    /*
+    
       Hide the layer panel.
      
     ol.control.LayerSwitcher.prototype.hidePanel = function() {
