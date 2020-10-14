@@ -84,7 +84,7 @@
     
       Hide the layer panel.
      
-    ol.control.LayerSwitcher.prototype.hidePanel = function() {
+    ol.control.LayerSwitcher.prototype.showPanel = function() {
         if (this.element.classList.contains(this.shownClassName)) {
             this.element.classList.remove(this.shownClassName);
         }
