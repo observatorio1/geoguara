@@ -46,8 +46,9 @@
 
         button.onmouseover = function(e) {
             this_.showPanel();
-        };
-
+        }
+      
+     
         button.onclick = function(e) {
             e = e || window.event;
             this_.showPanel();
