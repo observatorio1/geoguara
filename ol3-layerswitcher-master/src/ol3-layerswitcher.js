@@ -122,7 +122,7 @@
         if (map) {
             var this_ = this;
             this.mapListeners.push(map.on('pointerdown', function() {
-                this_.showPanel();
+                this_.hidePanel();
             }));
             this.renderPanel();
         }
