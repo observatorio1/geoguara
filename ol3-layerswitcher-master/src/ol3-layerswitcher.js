@@ -43,17 +43,17 @@
         ol.control.LayerSwitcher.enableTouchScroll_(this.panel);
 
         var this_ = this;
-
+/*
         button.onmouseover = function(e) {
             this_.showPanel();
         };
-/*
+
         button.onclick = function(e) {
             e = e || window.event;
             this_.showPanel();
             e.preventDefault();
         };
-
+*/
         this_.panel.onmouseout = function(e) {
             e = e || window.event;
             if (!this_.panel.contains(e.toElement || e.relatedTarget)) {
