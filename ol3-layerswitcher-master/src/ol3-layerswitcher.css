@@ -3,7 +3,7 @@
 }
 
 .layer-switcher.shown.ol-control:hover {
-    background-color: white;
+    background-color: transparent;
 }
 
 .layer-switcher {
