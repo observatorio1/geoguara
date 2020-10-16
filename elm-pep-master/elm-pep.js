@@ -1,10 +1,3 @@
-// This Source Code Form is subject to the terms of the Mozilla Public
-// License, v. 2.0. If a copy of the MPL was not distributed with this
-// file, You can obtain one at http://mozilla.org/MPL/2.0/
-
-// Variable to hold current primary touch event identifier.
-// iOS needs this since it does not attribute
-// identifier 0 to primary touch event.
 let primaryTouchId = null;
 
 // Variable to hold mouse pointer captures.
